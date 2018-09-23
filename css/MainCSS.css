@@ -1,4 +1,4 @@
-@import "style.css";
+
 body {
   background: #fff;
   font-family: "Rubik", arial, sans-serif;
@@ -6,6 +6,7 @@ body {
   font-size: 16px;
   line-height: 2;
   color: gray;
+  
 }
 
 /* --------- Home Page ---------- */
