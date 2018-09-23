@@ -316,7 +316,6 @@ header .navbar.navbar-light .nav-link.active {
 }
 
 .site-section {
-  padding: 5em 0;
 }
 
 .school-features,
@@ -1208,7 +1207,7 @@ blockquote p {
 }
 
 .block-17 form .fields {
-  width: calc(100% - 120px);
+  width: calc(100%);
   position: relative;
 }
 
