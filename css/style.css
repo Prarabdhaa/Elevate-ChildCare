@@ -73,7 +73,27 @@ header .navbar .navbar-nav.absolute-right {
   position: absolute;
   right: 0;
 }
+table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: #11cbd7;
+    color: #000;
+}
+td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
 
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
 @media (max-width: 991.98px) {
   header .navbar .navbar-nav.absolute-right {
     position: relative;
