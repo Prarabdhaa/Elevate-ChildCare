@@ -1,4 +1,4 @@
-<<<<<<< HEAD:css/style.css
+@import "style.css";
 body {
   background: #fff;
   font-family: "Rubik", arial, sans-serif;
@@ -11,6 +11,12 @@ body {
 /* --------- Home Page ---------- */
 
 /* --------- Home Page ---------- */
+
+.heading {
+	font-family: sans-serif;
+	text-align: center;
+	margin-top: 100px;
+}
 
 a {
   -webkit-transition: .3s all ease;
@@ -44,6 +50,7 @@ header .navbar-brand {
   letter-spacing: .2em;
   font-weight: 400;
   color: #000 !important;
+  text-align: center;
 }
 
 header .navbar-collapse {
